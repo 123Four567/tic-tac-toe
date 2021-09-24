@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tic-tac-toe</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1>TIC-TAC-TOE</h1>	
+	</header>
+
+	<section class="playground">
+		<div class="board">
+			<div class="square-1" data-id="0"></div>
+			<div class="square-2" data-id="1"></div>
+			<div class="square-3" data-id="2"></div>
+			<div class="square-4" data-id="3"></div>
+			<div class="square-5" data-id="4"></div>
+			<div class="square-6" data-id="5"></div>
+			<div class="square-7" data-id="6"></div>
+			<div class="square-8" data-id="7"></div>
+			<div class="square-9" data-id="8"></div>
+		</div> 
+	</section>
+
+	<div class="button">
+		<button class="reset-board">Restart</button>
+	</div>
+	
+	<section>
+		<div class="show-choices" id="selection">
+			<h1>Choose your symbol</h1>
+			<div>
+				<div class="choice-o">O</div>
+				<div class="choice-x">X</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="inactive" id="winner">
+		<div class="prompt-win">
+			<p></p>
+			<button class="replay-board">Play Again</button>
+		</div>
+	</section>
+	
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
